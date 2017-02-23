@@ -1,8 +1,3 @@
-require './question_class'
-require './cook_class'
-require './takeaway_class'
-require './food2fork'
-
 class Cook
     def initialize (name,allergy,taste_preference,ability_rating,age,postcode)
         @name = name.to_s
