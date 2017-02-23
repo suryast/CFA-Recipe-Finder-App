@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative 'recipe'
+require_relative 'recipe_class'
 
 class RecipeTest < Test::Unit::TestCase
 
