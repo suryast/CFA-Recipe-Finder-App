@@ -112,22 +112,56 @@ class Questioner
         system "clear"
       end
 
+#######################################added cursor animation – suryast
+    #insert table function, displays ingredients that they have provided.
+    def insert_table(ingredients)
+      @ingredients = ingredients
+      rows = [ingredients].transpose
+      table = Terminal::Table.new headings: %w(Ingredients), rows: rows
+      puts Paint[table, :red]
+    end
 
-    puts "Hi #{Paint[answers[:answers_1], :red]}, thanks for using the Recipe Finder App \n"
-    puts "\nCan you please confirm that the below is what you had entered?"
-    puts "\nYour age is #{Paint[answers[:answers_2], :blue]}, and your postcode is #{Paint[answers[:answers_3], :green]}"
-    puts "\nYour cooking skills are #{answers[:answers_7]} and you are craving some #{answers[:answers_6]} food.\n"
-    puts "You have the following ingredients:\n"
+    def show_wait_cursor(seconds,fps=10)
+      chars = %w[| / - \\]
+      delay = 1.0/fps
+      (seconds*fps).round.times{ |i|
+        print chars[i % chars.length]
+        sleep delay
+        print "\b"
+    }
+    end
+
+    def type_text_slowly(input)
+      count = 0
+        input.split("").each do |i|
+        print i
+        sleep 0.03
+        count = count + 1
+    end
+
+    end
+
+    #little animation
+    show_wait_cursor(1)
+
+    #puts "Hi #{Paint[answers[:answers_1], :red]}, thanks for using the Recipe Finder App \n"
+    #puts "\nCan you please confirm that the below is what you had entered?"
+    #puts "\nYour age is #{Paint[answers[:answers_2], :blue]}, and your postcode is #{Paint[answers[:answers_3], :green]}"
+    #puts "\nYour cooking skills are #{answers[:answers_7]} and you are craving some #{answers[:answers_6]} food.\n"
+    #puts "You have the following ingredients:\n"
+    #puts insert_table(ingredients)
+    #puts "Your food considerations are: #{answers[:answers_5]}"
+
+    #what to print
+    text = "Hi #{Paint[answers[:answers_1], :red]}, thanks for using the Recipe Finder App \n\nCan you please confirm that the below is what you had entered?\nYour age is #{Paint[answers[:answers_2], :yellow]}, and your postcode is #{Paint[answers[:answers_3], :green]}\nYour cooking skills are #{answers[:answers_7]} and you are craving some #{answers[:answers_6]} food.\nYou have the following ingredients:\n"
+    text_after_table = "Your food considerations are: #{answers[:answers_5]}\nHere is a tailored recipe for your next meal."
+ 
+    #type text slowly onto the terminal
+    type_text_slowly(text)
+    sleep 0.5
     puts insert_table(ingredients)
-    puts "Your food considerations are: #{answers[:answers_5]}"
-
+    sleep 0.5
+    type_text_slowly(text_after_table) 
   end
-
-  #insert table function, displays ingredients that they have provided.
-  def insert_table(ingredients)
-    @ingredients = ingredients
-    rows = [ingredients].transpose
-    table = Terminal::Table.new headings: %w(Ingredients), rows: rows
-    puts Paint[table, :red]
-  end
+##############################################
 end
