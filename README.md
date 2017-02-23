@@ -43,11 +43,13 @@ require 'html_to_plain_text'
 
 
  Clone files from Git with the following information:   
-
+  
  `git clone https://github.com/ethankhoa/CFA-Recipe-Finder-App.git`
-
+  
+  
 User must acquire own Google Token and input it into credentials.rb file
-
+  
+  
 
 ###In the terminal  
   Open up directory that the files are downloaded to and run:
@@ -70,12 +72,9 @@ User must acquire own Google Token and input it into credentials.rb file
 ```
 
 
-*e.g.type "apple"
-> apple
-
 
 ## Design Journey/Process  
-  
+  Please refer to the following web site.
 https://trello.com/b/MyQUz6GK/team-terminal-app-ethan-josh-surya-taka
 
 ### Document how your team designed your app  
