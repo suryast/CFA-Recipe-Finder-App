@@ -6,11 +6,11 @@
    The recipe is from [taste.com.au](http://www.taste.com.au/).  
 
 ### Installation instruction
-Now uploading..
+Now uploading..  
 #### Code formatted as snippets
-Now uploading..
+Now uploading..  
 ### Usage instructions
-under testing..
+under testing..  
 *in terminal num
 
 `   $ ruby projects.rb`
@@ -33,7 +33,7 @@ under testing..
 
 
 ## Design Journey/Process
-Now uploading..
-### Document how your team designed your app
-( add screenshots/whiteboard pics)
-Now uploading..
+Now uploading..  
+### Document how your team designed your app  
+( add screenshots/whiteboard pics)  
+Now uploading..  
