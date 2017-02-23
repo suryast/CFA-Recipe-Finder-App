@@ -58,7 +58,7 @@ require 'html_to_plain_text'
   
  * Example of class use  
  
- `$ruby projects.rb`
+   `$ruby projects.rb`
 ```
     class <FoodItem>
     def initialize(name_of_food_item, allergen)
@@ -73,7 +73,7 @@ require 'html_to_plain_text'
 
 
 ## Design Journey/Process  
-  Please refer to the following web site.
+  Please refer to the following web site.  
 https://trello.com/b/MyQUz6GK/team-terminal-app-ethan-josh-surya-taka
 
 ### Document how your team designed your app  
