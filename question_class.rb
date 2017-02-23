@@ -15,35 +15,35 @@ class Questioner
     def questions_ask
 
       ingredients = []
-      system("clear")
+      #system("clear")
 #beginning of questions/rules
 #name
       puts questions[:question_1]
       answer = gets.chomp.to_s
       answers[:answers_1] = answer
-          system "clear"
+          #system "clear"
 #age
       puts questions[:question_2]
       answer = gets.chomp.to_i
       answers[:answers_2] = answer
-          system "clear"
+          #system "clear"
 #postcode
       puts questions[:question_3]
       answer = gets.chomp.to_i
       answers[:answers_3] = answer
-          system "clear"
+          #system "clear"
 #do you have dietary requirements?
       puts questions[:question_4]
       answer = gets.chomp.to_i
       answers[:answers_4] = answer
-          system "clear"
+          #system "clear"
 
       if answer == 1
 #if yes, specify, if no then it puts No restrictions.
       puts questions[:question_5]
       answer = gets.chomp.to_i
       # answers[:answers_5] = answer
-        system "clear"
+        #system "clear"
         if answer == "1"
           answers[:answers_5] = "vegan"
         elsif answer == "2"
@@ -61,7 +61,7 @@ class Questioner
       puts questions[:question_6]
       answer = gets.chomp.to_i
       # answers[:answers_6] = answer
-          system "clear"
+          #system "clear"
         if answer == "1"
           answers[:answers_6] = "spicy"
         elsif answer == "2"
@@ -70,12 +70,12 @@ class Questioner
           answers[:answers_6] = "savoury"
         end
 
-        system "clear"
+        #system "clear"
   #Rate your cooking ability
       puts questions[:question_7]
       answer = gets.chomp.downcase
       # answers[:answers_7] = answer
-        system "clear"
+        #system "clear"
 
       if answer == ("1" || "poor")
         answers[:answers_7] = "poor"
@@ -95,13 +95,13 @@ class Questioner
         "Sorry, please choose again"
         puts questions[:question_7]
       end
-      system "clear"
+      #system "clear"
 
 #Total no. of ingredients
       puts questions[:question_8]
       answer = gets.chomp.to_i
       answers[:answers_8] = answer
-        system "clear"
+        #system "clear"
 #User inputs ingredients one at a time, ingredients are then stored in the answers hash as an array.
       answers[:answers_8].times do
         puts questions[:question_9]
@@ -109,8 +109,9 @@ class Questioner
         #stored in the ingredients array
         ingredients << answer
         answers[:answers_9] = ingredients
-        system "clear"
+        #system "clear"
       end
+      system "clear"
 
 #######################################added cursor animation – suryast
     #insert table function, displays ingredients that they have provided.

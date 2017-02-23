@@ -3,6 +3,7 @@ require './cook_class'
 require './takeaway_class'
 require './food2fork'
 require './credentials'
+require 'Paint'
 
 questions_new = {
   #question hash for asking all the questions.
@@ -47,6 +48,13 @@ answers_new = {
 # Step 1
 # create users questioner
 user_1 = Questioner.new(questions_new, answers_new)
+
+# fancy display
+system("clear")
+puts Paint["=====================================================", :green]
+puts "=================" + Paint["HUNGRY, DO WHAT?", :yellow] + "===================="
+puts Paint["=====================================================", :green]
+
 # call method to start questions
 user_1.questions_ask
 
