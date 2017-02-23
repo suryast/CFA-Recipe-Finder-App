@@ -13,11 +13,17 @@ require 'html_to_plain_text'
 
   def get_recipe(ingredients)
     found = Food2Fork::Recipe.search({q: "#{ingredients}", sort: 'r', page: 1})# => returns list of Recipe array object
+    
     # Fetch and parse HTML document
     page = Nokogiri::HTML(RestClient.get(found.pop.f2f_url))
-    text = HtmlToPlainText.plain_text(page.to_s)
 
+    # Grab link, recipe name, ingredients and nutrition content
+
+    # Santize the HTML documents
+    text = HtmlToPlainText.plain_text(page.to_s)
   end
+
+
 
 # end
 

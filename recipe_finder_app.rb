@@ -63,12 +63,13 @@ user_1.questions_ask
 # create cook based on users answers
 cook_1 = Cook.new(user_1.answers[:answers_1], user_1.answers[:answers_5], user_1.answers[:answers_6], user_1.answers[:answers_7], user_1.answers[:answers_2],user_1.answers[:answers_3])
 
-
 # Step 3
 # create new Google Places client
 client = GooglePlaces::Client.new(get_google_credentials) # working
+
 # create places search based on user input
 cook_1_search = PlacesSearch.new(client, cook_1.postcode, cook_1.taste_preference)
+
 # pull user coordinates based on postcode
 client_coordinates = cook_1_search.get_client_coordinates(cook_1.postcode)
 
