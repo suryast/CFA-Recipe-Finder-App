@@ -14,7 +14,7 @@
 
 
 ### Installation instruction
-*Install following gems :    
+* Install following gems :    
 ```
 gem 'terminal-table'  
 gem 'paint'  
@@ -26,7 +26,7 @@ gem 'rest-client'
 gem 'food2fork'  
 gem 'html_to_plain_text'  
  ```  
-*Run above gems in Ruby :  
+* Run above gems in Ruby :  
 ```
 require 'terminal-table'  
 require 'paint'  
@@ -41,23 +41,22 @@ require 'html_to_plain_text'
 
 ### Usage instructions
 
-
- Clone files from Git with the following information:   
+* Clone files from Git with the following information:   
   
  `git clone https://github.com/ethankhoa/CFA-Recipe-Finder-App.git`
   
   
-User must acquire own Google Token and input it into credentials.rb file
+  User must acquire own Google Token and input it into credentials.rb file
   
   
 
 ###In the terminal  
-  Open up directory that the files are downloaded to and run:
+* Open up directory that the files are downloaded to and run:
 
 `   $ruby recipe_finder_app.rb  `
 
   
-###Example of class use  
+ * Example of class use  
  
  `$ruby projects.rb`
 ```
