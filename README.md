@@ -1,8 +1,7 @@
 # CFA-Recipe-Finder-App
 
-## About CFA-Recipe=finder-App
-  This is an owesome application. 
-  With some easy questions, this application will suggest your dinner and show its recipe.  
+## About CFA-Recipe-Finder-App  
+  With some easy questions, this application will support you to decide your meal and show its recipe.  
   You will be free from bothering to decide what to eat and serach how to cook !   
    (reference: [taste.com.au](http://www.taste.com.au/) )
 
