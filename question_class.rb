@@ -131,9 +131,3 @@ class Questioner
     puts Paint[table, :red]
   end
 end
-
-
-
-# user_1 = Questioner.new(questions_new, answers_new)
-#
-# user_1.questions_ask
