@@ -2,14 +2,37 @@
 
 ## About our project
   CFA-Recipe=finder-App is an owesome application.  
-  This application will suggest your daily meal and show its recipe.  
+  With some easy questions, this application will suggest your dinner and show its recipe.
+  You will be free from bothering to decide what to eat and serach how to cook ! 
    (reference: [taste.com.au](http://www.taste.com.au/) )
 
 ### Installation instruction
-Now uploading..  
-#### Code formatted as snippets
-Now uploading..  
-### Usage instructions
+*Install following gems :    
+```
+gem 'terminal-table'  
+gem 'paint'  
+gem 'Geocoder'  
+gem 'nokogiri'  
+gem 'open-uri'  
+gem 'open_uri_redirections'  
+gem 'rest-client'  
+gem 'food2fork'  
+gem 'html_to_plain_text'  
+ ```  
+*Run above gems in Ruby :  
+```
+require 'terminal-table'  
+require 'paint'  
+require 'Geocoder'  
+require 'nokogiri'  
+require 'open-uri'  
+require 'open_uri_redirections'  
+require 'rest-client'  
+require 'food2fork'  
+require 'html_to_plain_text'  
+```  
+### Usage instructions  
+####In the terminal
 under testing..  
 *in terminal num
 
@@ -32,6 +55,7 @@ under testing..
 
 ## Design Journey/Process
 Now uploading..  
+
 ### Document how your team designed your app  
 ( add screenshots/whiteboard pics)  
 Now uploading..  
