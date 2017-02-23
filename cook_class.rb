@@ -9,4 +9,5 @@ class Cook
     end
 
     attr_accessor :name, :allergy, :taste_preference, :ability_rating, :age, :postcode
+    
 end
