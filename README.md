@@ -14,8 +14,6 @@ under testing..
 *in terminal num
 
 `   $ ruby projects.rb`
-
-*Defined class as following
 ```
     class <FoodItem>
     def initialize(name_of_food_item, allergen)
