@@ -1,0 +1,93 @@
+References
+
+
+^ "Ruby 2.4.0 Released". Ruby Programming Language. 2016-12-25. Retrieved 2016-12-26. 
+^ "[ruby] Contents of /trunk/COPYING". Retrieved 2 May 2015. 
+^ "[ruby] Contents of /trunk/GPL". Retrieved 2 May 2015. 
+^ "[ruby] Contents of /trunk/BSDL". Retrieved 2 May 2015. 
+^ a b c Cooper, Peter (2009). Beginning Ruby: From Novice to Professional. Beginning from Novice to Professional (2nd ed.). Berkeley: APress. p. 101. ISBN 1-4302-2363-4. To a lesser extent, Python, LISP, Eiffel, Ada, and C++ have also influenced Ruby. 
+^ a b c d e f Bini, Ola (2007). Practical JRuby on Rails Web 2.0 Projects: Bringing Ruby on Rails to Java. Berkeley: APress. p. 3. ISBN 1-59059-881-4. It draws primarily on features from Perl, Smalltalk, Python, Lisp, Dylan, and CLU. 
+^ Bini, Ola. "Ioke". Ioke.org. Retrieved 2011-07-21. inspired by Io, Smalltalk, Lisp and Ruby 
+^ "Introduction — Julia Language 0.4.1 documentation". Retrieved 13 November 2015. 
+^ Burks, Tim. "About Nu™". Programming Nu™. Neon Design Technology, Inc. Retrieved 2011-07-21. 
+^ Lattner, Chris (2014-06-03). "Chris Lattner's Homepage". Chris Lattner. Retrieved 2014-06-03. The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list. 
+^ "About Ruby". Retrieved 2 March 2014. 
+^ Shugo Maeda (17 December 2002). "The Ruby Language FAQ". Retrieved 2 March 2014. 
+^ Yukihiro Matsumoto (13 February 2006), ruby-talk: Re: Ruby's lisp features, retrieved 2 March 2014 
+^ a b c d e f http://blog.nicksieger.com/articles/2006/10/20/rubyconf-history-of-ruby History of Ruby
+^ http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/88819 "[FYI: historic] The decisive moment of the language name Ruby. (Re: [ANN] ruby 1.8.1)" — E-mail from Hiroshi Sugihara to ruby-talk
+^ "The Ruby Language FAQ – 1.3 Why the name 'Ruby'?". Ruby-Doc.org. Retrieved April 10, 2012. 
+^ Yukihiro Matsumoto (June 11, 1999). "Re: the name of Ruby?". Ruby-Talk (Mailing list). Retrieved April 10, 2012. 
+^ "More archeolinguistics: unearthing proto-Ruby". Retrieved 2 May 2015. 
+^ "[ruby-talk:00382] Re: history of ruby". Retrieved 2 May 2015. 
+^ "[ruby-list:124] TUTORIAL - ruby's features". Retrieved 2 May 2015. 
+^ http://www.linuxdevcenter.com/pub/a/linux/2001/11/29/ruby.html An Interview with the Creator of Ruby
+^ Yukihiro Matsumoto (October 2000). "Programming Ruby: Forward". Retrieved 5 March 2014. 
+^ a b "We retire Ruby 1.8.7". Retrieved 2 May 2015. 
+^ "IPA 独立行政法人 情報処理推進機構：プレス発表　プログラム言語RubyのJIS規格（JIS X 3017）制定について". Retrieved 2 May 2015. 
+^ "IPA 独立行政法人 情報処理推進機構：プレス発表　プログラム言語Ruby、国際規格として承認". Retrieved 2 May 2015. 
+^ Web Development: Ruby on Rails. Devarticles.com (2007-03-22). Retrieved on 2013-07-17.
+^ "Ruby 1.9.3 p0 is released". ruby-lang.org. October 31, 2011. Retrieved February 20, 2013. 
+^ "v1_9_3_0/NEWS". Ruby Subversion source repository. ruby-lang.org. September 17, 2011. Retrieved February 20, 2013. 
+^ Ruby 1.9: What to Expect. Slideshow.rubyforge.org. Retrieved on 2013-07-17.
+^ "Support for Ruby 1.9.3 has ended". Retrieved 2 May 2015. 
+^ Endoh, Yusuke. (2013-02-24) Ruby 2.0.0-p0 is released. Ruby-lang.org. Retrieved on 2013-07-17.
+^ Endoh, Yusuke. (2013-02-24) Ruby 2.0.0-p0 is released. Ruby-lang.org. Retrieved on 2013-07-17.
+^ "Ruby 2.1.0 is released". December 25, 2013. Retrieved December 26, 2013. 
+^ "Semantic Versioning starting with Ruby 2.1.0". December 21, 2013. Retrieved December 27, 2013. 
+^ "Ruby 2.2.0 Released". December 25, 2014. Retrieved January 4, 2015. 
+^ "ruby/NEWS at v2_2_0 · ruby/ruby · GitHub". GitHub. Retrieved 2 May 2015. 
+^ Gustavo Frederico Temple Pedrosa, Vitor de Lima, Leonardo Bianconi (2015). "Ruby 2.2.1 Released". Retrieved 12 July 2016.  CS1 maint: Multiple names: authors list (link)
+^ Gustavo Frederico Temple Pedrosa, Vitor de Lima, Leonardo Bianconi (2015). "v2.2.1 ChangeLog". Retrieved 12 July 2016.  CS1 maint: Multiple names: authors list (link)
+^ Gustavo Frederico Temple Pedrosa, Vitor de Lima, Leonardo Bianconi (2014). "Specifying non volatile registers for increase performance in ppc64". Retrieved 12 July 2016.  CS1 maint: Multiple names: authors list (link)
+^ Gustavo Frederico Temple Pedrosa, Vitor de Lima, Leonardo Bianconi (2014). "Specifying MACRO for increase performance in ppc64". Retrieved 12 July 2016.  CS1 maint: Multiple names: authors list (link)
+^ Ruby 2.3.0 changes and features – Frozen string literals
+^ "Ruby/NEWS at v.2_3_0 - ruby/ruby - Github". GitHub. Retrieved 25 December 2015. 
+^ a b c "Ruby 2.4.0 Released". www.ruby-lang.org. Retrieved 2016-12-30. 
+^ A Patch in Time: Securing Ruby
+^ ruby-1.8.0 released!
+^ Plans for 1.8.7
+^ EOL for Ruby 1.8.7 and 1.9.2
+^ Ruby 1.9.3-p551 Released
+^ Ruby 1.9.0 Released
+^ Support for Ruby version 1.9.3 will end on February 23, 2015
+^ Support for Ruby 1.9.3 has ended
+^ a b c Ruby 2.0.0-p648 Released
+^ Ruby 2.0.0-p0 is released
+^ Ruby 2.1.10 Released
+^ Ruby 2.1.0 is released
+^ Support plans for Ruby 2.0.0 and Ruby 2.1
+^ Ruby 2.1.9 Released
+^ Release Engineering
+^ Ruby 2.2.6 Released
+^ Ruby 2.2.0 Released
+^ Ruby 2.3.3 Released
+^ Ruby 2.3.0 Released
+^ What’s coming in Ruby 3 and Rails 5
+^ "The Ruby Programming Language". Retrieved 2 May 2015. 
+^ Google Tech Talks – Ruby 1.9 on YouTube
+^ a b c Bill Venners. "The Philosophy of Ruby". Retrieved 2 May 2015. 
+^ Ruby Weekly News 23rd – 29th May 2005
+^ Bruce Stewart (29 November 2001). "An Interview with the Creator of Ruby - O'Reilly Media". Retrieved 2 May 2015. 
+^ Bill Venners. "Dynamic Productivity with Ruby". Retrieved 2 May 2015. 
+^ "Language Workbenches: The Killer-App for Domain Specific Languages?". martinfowler.com. Retrieved 2 May 2015. 
+^ Ruby – Add class methods at runtime
+^ Bill Venners. "Blocks and Closures in Ruby". Retrieved 2 May 2015. 
+^ "Feature #2034: Consider the ICU Library for Improving and Expanding Unicode Support - Ruby trunk - Ruby Issue Tracking System". Retrieved 2 May 2015. 
+^ Britt, James. "Ruby 2.0.0 Standard Library Documentation". Retrieved 2013-12-09. 
+^ Green threads
+^ "The Ruby Language FAQ: How Does Ruby Stack Up Against...?". Retrieved 2 May 2015. 
+^ In Ruby's syntax, statement is just a special case of an expression that cannot appear as an argument (e.g. multiple assignment). http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/1120
+statement [...] can not be part of expression unless grouped within parentheses. http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/2460
+^ Re: semenatics of if/unless/while statement modifiers. Blade.nagaokaut.ac.jp (2005-11-23). Retrieved on 2013-07-17.
+^ https://github.com/remore/virtual_module
+^ Peter Cooper (2010-05-18). "The Why, What, and How of Rubinius 1.0's Release". 
+^ Maya Stodte (February 2000). "IBM developerWorks – Ruby: a new language". Archived from the original on August 18, 2000. Retrieved 3 March 2014. 
+^ Yukihiro Matsumoto (August 2002). "lang-ruby-general: Re: question about Ruby initial development". Retrieved 3 March 2014. 
+^ Yukihiro Matsumoto (5 January 1999). "ruby-talk: Re: hah, check these errors". Retrieved 3 March 2014. 
+^ "Iron Ruby on Windows Phone 7". 
+^ "The Ruby Toolbox". Retrieved 2015-04-04. 
+^ "We retire raa.ruby-lang.org". 2013-08-08. Retrieved 2016-01-03. 
+
+Further Reading
+
