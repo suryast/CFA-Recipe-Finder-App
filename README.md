@@ -53,9 +53,12 @@ under testing..
 > apple
 
 
-## Design Journey/Process
+## Design Journey/Process  
+  
 Now uploading..  
 
 ### Document how your team designed your app  
-( add screenshots/whiteboard pics)  
+  
 Now uploading..  
+  
+  
