@@ -3,15 +3,6 @@ require './cook_class'
 require './takeaway_class'
 require './food2fork'
 require './credentials'
-require 'terminal-table'
-require 'paint'
-require 'Geocoder'
-require 'nokogiri'
-require 'open-uri'
-require 'open_uri_redirections'
-require 'rest-client'
-require 'food2fork'
-require 'html_to_plain_text'
 
 questions_new = {
   #question hash for asking all the questions.
@@ -38,20 +29,20 @@ questions_new = {
     5. Amazing, I can do anything",
   question_8: "How many ingredients do you have?",
   question_9: "What ingredients do you have?"
-  }
+}
 
-  answers_new = {
-    #answers for all the questions stored in an empty hash
-    :answers_1 => "",
-    :answers_2 => "",
-    :answers_3 => "",
-    :answers_4 => "",
-    :answers_5 => "",
-    :answers_6 => "",
-    :answers_7 => "",
-    :answers_8 => "",
-    :answers_9 => ""
-  }
+answers_new = {
+  #answers for all the questions stored in an empty hash
+  :answers_1 => "",
+  :answers_2 => "",
+  :answers_3 => "",
+  :answers_4 => "",
+  :answers_5 => "",
+  :answers_6 => "",
+  :answers_7 => "",
+  :answers_8 => "",
+  :answers_9 => ""
+}
 
 # Step 1
 # create users questioner
