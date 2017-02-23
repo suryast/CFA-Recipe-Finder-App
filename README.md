@@ -1,9 +1,9 @@
 # CFA-Recipe-Finder-App
 
 ## About our project
-  CFA-Recipe=finder-App is an owesome application. 
-  This application will suggest your daily meal and show its recipe.
-   The recipe is from [taste.com.au](http://www.taste.com.au/).
+  CFA-Recipe=finder-App is an owesome application.  
+  This application will suggest your daily meal and show its recipe.  
+   The recipe is from [taste.com.au](http://www.taste.com.au/).  
 
 ### Installation instruction
 
