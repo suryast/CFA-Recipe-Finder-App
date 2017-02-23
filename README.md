@@ -1,7 +1,5 @@
 # CFA-Recipe-Finder-App
 
-# Recipe
-
 ## About our project
   This is an owesome application.
 
