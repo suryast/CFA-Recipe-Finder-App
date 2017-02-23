@@ -6,17 +6,16 @@
    The recipe is from [taste.com.au](http://www.taste.com.au/).  
 
 ### Installation instruction
-
+Now uploading..
 #### Code formatted as snippets
-
+Now uploading..
 ### Usage instructions
-
+under testing..
 *in terminal num
 
 `   $ ruby projects.rb`
 
 *Defined class as following
-
 ```
     class <FoodItem>
     def initialize(name_of_food_item, allergen)
@@ -29,11 +28,12 @@
 ```
 
 
-*e.g.You type "apple"
+*e.g.type "apple"
 > apple
 
 
 ## Design Journey/Process
-
-## Document how your team designed your app
+Now uploading..
+### Document how your team designed your app
 ( add screenshots/whiteboard pics)
+Now uploading..
