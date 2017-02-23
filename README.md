@@ -5,7 +5,7 @@
 ## About our project
   This is an owesome application.
 
-    [taste.com.au](http://www.taste.com.au/)
+[taste.com.au](http://www.taste.com.au/)
 
 ### Installation instruction
 
