@@ -67,7 +67,7 @@ class PlacesSearch
     category = ["Name", "Address", "Rating", "Phone ", "Website", "Review"]
     details = [place_name, place_address, place_rating, place_phone, place_url, place_review.scan(/.{1,80}/).join("\n")]
     rows = [category, details].transpose
-    table = Terminal::Table.new :title => Paint["Screw it! Just get takeaway from #{place_name} in #{place_city}", :yellow, :underline], :rows => rows
+    table = Terminal::Table.new :title => Paint["Screw it! Just get takeaway from #{place_name} in #{place_city}", :yellow, :underline], :rows => rows,:style => {:border_i => "x"}
 
     # system("clear")
     puts table
@@ -81,7 +81,8 @@ class PlacesSearch
     place_rating = results.map { |place| place.rating}
 
     rows = [place_name, place_address, place_rating].transpose
-    table = Terminal::Table.new :title => Paint["Restaurants Nearby in ", :yellow] , :headings => ['Name', 'Address', 'Rating'], :rows => rows, :style => {:width => 80}
+    table = Terminal::Table.new :title => Paint["Restaurants Nearby in ", :yellow] , :headings => ['Name', 'Address', 'Rating'], :rows => rows, :style => {:border_i => "x"}
+      #:width => 80,  -> width stopped working
 
     puts table
   end
