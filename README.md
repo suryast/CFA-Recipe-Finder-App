@@ -2,8 +2,9 @@
 
 ## About CFA-Recipe-Finder-App  
   With some easy questions, this application will support you to decide your meal and show its recipe.  
+  If you have any allergies then we can introduce takeaway restaurant.  
   You will be free from bothering to decide what to eat and serach how to cook !   
-   (reference: [taste.com.au](http://www.taste.com.au/) )
+  (reference: [taste.com.au](http://www.taste.com.au/) )
 
 ### Installation instruction
 *Install following gems :    
