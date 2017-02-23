@@ -49,13 +49,13 @@ require 'html_to_plain_text'
 User must acquire own Google Token and input it into credentials.rb file
 
 
-  ####In the terminal  
+###In the terminal  
   Open up directory that the files are downloaded to and run:
 
 `   $ruby recipe_finder_app.rb  `
 
   
-  ####Example of class use  
+###Example of class use  
  
  `$ruby projects.rb`
 ```
