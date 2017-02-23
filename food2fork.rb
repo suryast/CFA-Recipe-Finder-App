@@ -17,15 +17,20 @@ require 'paint'
 
 
 FOOD2FORK_API_KEY = ENV['FOOD2FORK_API_KEY']
-found = Food2Fork::Recipe.search({q: 'Eggs, Milk, Beef', sort: 'r', page: 1})# => returns list of Recipe array object
 
-count = 0
-rows = []
+def get_recipe(ingredients)
+    found = Food2Fork::Recipe.search({q: "#{ingredients}", sort: 'r', page: 1})# => returns list of Recipe array object
 
-5.times do 
-    rows << [found[count].title, found[count].source_url]
-    count = count + 1
+    #add the results into new array
+    count = 0
+    rows = []
+
+    5.times do 
+        rows << [found[count].title, found[count].source_url]
+        count = count + 1
+    end
+
+    #print recommendations
+    table = Terminal::Table.new :headings => [Paint['Recipe', :yellow], Paint['URL', :yellow]],:rows => rows
+    puts table
 end
-
-table = Terminal::Table.new :headings => [Paint['Recipe', :yellow], Paint['URL', :yellow]],:rows => rows
-puts table

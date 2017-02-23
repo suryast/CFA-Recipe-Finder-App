@@ -81,7 +81,7 @@ class PlacesSearch
     place_rating = results.map { |place| place.rating}
 
     rows = [place_name, place_address, place_rating].transpose
-    table = Terminal::Table.new :title => Paint["Restaurants Nearby in ", :yellow] , :headings => ['Name', 'Address', 'Rating'], :rows => rows
+    table = Terminal::Table.new :title => Paint["Restaurants Nearby in ", :yellow] , :headings => ['Name', 'Address', 'Rating'], :rows => rows, :style => {:width => 80}
 
     puts table
   end

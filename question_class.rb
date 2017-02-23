@@ -117,8 +117,8 @@ class Questioner
     def insert_table(ingredients)
       @ingredients = ingredients
       rows = [ingredients].transpose
-      table = Terminal::Table.new headings: %w(Ingredients), rows: rows
-      puts Paint[table, :red]
+      table = Terminal::Table.new headings: [Paint['Ingredients', :red]], rows: rows
+      puts  table
     end
 
     def show_wait_cursor(seconds,fps=10)
@@ -154,7 +154,7 @@ class Questioner
 
     #what to print
     text = "Hi #{Paint[answers[:answers_1], :red]}, thanks for using the Recipe Finder App \n\nCan you please confirm that the below is what you had entered?\nYour age is #{Paint[answers[:answers_2], :yellow]}, and your postcode is #{Paint[answers[:answers_3], :green]}\nYour cooking skills are #{answers[:answers_7]} and you are craving some #{answers[:answers_6]} food.\nYou have the following ingredients:\n"
-    text_after_table = "Your food considerations are: #{answers[:answers_5]}\nHere is a tailored recipe for your next meal."
+    text_after_table = "Your food considerations are: #{answers[:answers_5]}\nHere are some inspirations for your next meal.\n"
  
     #type text slowly onto the terminal
     type_text_slowly(text)
