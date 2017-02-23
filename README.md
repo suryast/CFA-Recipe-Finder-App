@@ -3,7 +3,7 @@
 ## About our project
   CFA-Recipe=finder-App is an owesome application.  
   With some easy questions, this application will suggest your dinner and show its recipe.  
-  You will be free from bothering to decide what to eat and serach how to cook ! 
+  You will be free from bothering to decide what to eat and serach how to cook !   
    (reference: [taste.com.au](http://www.taste.com.au/) )
 
 ### Installation instruction
