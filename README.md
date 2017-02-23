@@ -4,7 +4,7 @@
   With some easy questions, this application will support you to decide your meal and show its recipe. 
   The recipe finder app takes input from a user depending on what ingredients they have in their cupboard and then uses a     google API to search for recipes which include those ingredients.
   If you have any allergies then we are able to tailor the search results based around your food rqeuirements and preferred     food tastes.
-  (reference: All recipes are pulled using the food2fork API which gives you access to our ever expanding socially ranked recipe database and state-of-the-art ingredient search function.
+  (reference: All recipes are pulled using the food2fork API which gives you access to a socially ranked recipe database and which includes ingredient search function.
 
 ## Features
   *	Utilises Google search to be able to search the internet for recipes based on the input from the user.
@@ -43,19 +43,21 @@ require 'html_to_plain_text'
 
 
  Clone files from Git with the following information:   
-
+  
  `git clone https://github.com/ethankhoa/CFA-Recipe-Finder-App.git`
-
+  
+  
 User must acquire own Google Token and input it into credentials.rb file
+  
+  
 
-
-  ####In the terminal
+###In the terminal  
   Open up directory that the files are downloaded to and run:
 
 `   $ruby recipe_finder_app.rb  `
 
   
-  ####Example of class use
+###Example of class use  
  
  `$ruby projects.rb`
 ```
@@ -70,12 +72,9 @@ User must acquire own Google Token and input it into credentials.rb file
 ```
 
 
-*e.g.type "apple"
-> apple
-
 
 ## Design Journey/Process  
-  
+  Please refer to the following web site.
 https://trello.com/b/MyQUz6GK/team-terminal-app-ethan-josh-surya-taka
 
 ### Document how your team designed your app  
