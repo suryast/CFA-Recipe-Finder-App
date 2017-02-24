@@ -99,7 +99,7 @@ questions_new = {
 ```
 
 ```
-ser_1 = Questioner.new(questions_new, answers_new)  
+user_1 = Questioner.new(questions_new, answers_new)  
 cook_1 = Cook.new(user_1.answers[:answers_1], user_1.answers[:answers_5])  
   
   
