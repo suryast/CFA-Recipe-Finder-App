@@ -56,14 +56,14 @@ require 'html_to_plain_text'
 
   
  * For example :  
-  Step 1
+  Step 1  
   *create users questioner
   *call method to start questions
 
-  Step 2
+  Step 2  
   *create cook based on users answers
 
-  Step 3
+  Step 3  
   *create new Google Places client  
   *create places search based on user input  
   *pull user coordinates based on postcode  
