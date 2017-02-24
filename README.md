@@ -143,7 +143,7 @@ Original idea concepts:
 
 We chose the Recipe Finder App because there is the ability to develop a lot of functionality with room to add extra functionality down the road once we have done more market research.
 
-The design process involved a number of variables to take into account, this included using the barebone requirements that anyone requires when researching food as well as including some cool functionality which gives the user a reason to be using our app. The hardest thing was trying to trim it down so that we could complete our first dev sprint and then look to build on the concept further. Some other ideas that we had were:
+The design process involved a number of variables to take into account, this included using the barebone requirements that anyone requires when researching food as well as including some cool functionality which gives the user a reason to be using our app. The hardest thing was trying to trim it down so that we could complete our first version and then look to build on the concept further. Some other ideas that we had were:
 
 - Being able to order food directly to you through an ubereats or menu log API.
 - Ordering any ingredients that you don't from supermarket chain.
