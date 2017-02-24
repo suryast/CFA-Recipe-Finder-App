@@ -60,14 +60,21 @@ require 'html_to_plain_text'
  
    `$ruby projects.rb`
 ```
-    class <FoodItem>
-    def initialize(name_of_food_item, allergen)
-      @name_of_food_item = name_of_food_item.to_s
-      @allergen = allergen.to_s
-    end
-    attr_accessor :name_of_food_item, :allergen
-
-    end
+require './question_class'  
+require './cook_class'  
+require './takeaway_class'  
+require './food2fork'  
+require './credentials'  
+require 'Paint'  
+  
+questions_new = {  
+  #question hash for asking all the questions.  
+  question_1: "What is your name?",  
+  question_2: "What is your age?",  
+  question_3: "What is your postcode",  
+  question_4: "Do you have any dietery requirements?  
+    1. Yes  
+    2. No",  
 ```
 
 
