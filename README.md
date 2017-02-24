@@ -75,6 +75,8 @@ questions_new = {
   question_4: "Do you have any dietery requirements?  
     1. Yes  
     2. No",  
+ ```  
+ ```
   answers_new = {  
   #answers for all the questions stored in an empty hash  
   :answers_1 => "",  
