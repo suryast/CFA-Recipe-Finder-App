@@ -92,8 +92,6 @@ https://trello.com/b/MyQUz6GK/team-terminal-app-ethan-josh-surya-taka
 
 ### Document how your team designed your app  
   
-
-![Alt text](CFA-Recipe-Finder-App/recipe_whiteboard.jpg?raw=true "Our whiteboard session")
-
+![alt tag](https://raw.githubusercontent.com/ethankhoa/CFA-Recipe-Finder-App/master/CFA-Recipe-App/Master/recipe_whiteboard.jpg)
   
   
