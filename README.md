@@ -103,30 +103,28 @@ client = GooglePlaces::Client.new(get_google_credentials)
  create new Google Places client  
 ```
 client = GooglePlaces::Client.new(get_google_credentials)
-```
- create places search based on user input
+```  
+ create places search based on user input  
 ```
 cook_1_search = PlacesSearch.new(client, cook_1.postcode, cook_1.taste_preference)
-```
+```  
  pull user coordinates based on postcode  
 
 ```client_coordinates = cook_1_search.get_client_coordinates(cook_1.postcode)
 ```
-
  return recipe based on users ingredients  
 ```
 puts recipe_1 = get_recipe(user_1.ingredients)
-```
+```  
  gets and returns list of restaurants in the area  
 ```
-new_results = cook_1_search.get_spots(client, client_coordinates)
+new_results = cook_1_search.get_spots(client, client_coordinates)  
   
-cook_1_search.place_search_details(new_results)
+cook_1_search.place_search_details(new_results)  
 ```
-
  gets and returns one random restaurant near the user  
 ```
-new_single_place = cook_1_search.single_place_search_details(new_results)
+new_single_place = cook_1_search.single_place_search_details(new_results)  
 ```
 
 
