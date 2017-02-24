@@ -129,7 +129,27 @@ new_single_place = cook_1_search.single_place_search_details(new_results)
 https://trello.com/b/MyQUz6GK/team-terminal-app-ethan-josh-surya-taka
 
 ### Document how your team designed your app  
-  
+  ## Design Journey/Process  
+  Please refer to the following web site.  
+https://trello.com/b/MyQUz6GK/team-terminal-app-ethan-josh-surya-taka
+
+### Document how your team designed your app  
+
+Original idea concepts:
+
+- Executive assistant
+- Surf app
+- Recipe/Restaurant finder App
+
+We chose the Recipe Finder App because there is the ability to develop a lot of functionality with room to add extra functionality down the road once we have done more market research.
+
+The design process involved a number of variables to take into account, this included using the barebone requirements that anyone requires when researching food as well as including some cool functionality which gives the user a reason to be using our app. The hardest thing was trying to trim it down so that we could complete our first dev sprint and then look to build on the concept further. Some other ideas that we had were:
+
+- Being able to order food directly to you through an ubereats or menu log API.
+- Ordering any ingredients that you don't from supermarket chain.
+- Making a reservation with the restaurant that you decide to go to if you don't want to eat.
+
+There was a lot of time spent understanding how the data would be pulled from the sites and then re-formatted in a readable state for the users. The Google search API's also required a lot of time to trim down the information, be able to pull the right information and display it back to the user in an easy to read manner. Ideally, in a perfect world we would spend more time understanding the customer and how they rank importance of information then look at modifying the output to optimise their expeirience.
+
+Our app flow stayed the same most of the way with a few areas where we had to reduce overall functionality as they would be considered more sprinkles than doughnuts. In saying that each input we receive from the user in this version is able to be used across multiple functions taking into account their preferences, their location and the resources they have available to them. As our information base of these profiles increases we will be able to optimise their future experiences through offering more accurate suggestions. Further to this, we are able to re-use this information for new functionality as the app continues to build.
 ![alt tag](recipe_whiteboard.jpg)
-  
-  
