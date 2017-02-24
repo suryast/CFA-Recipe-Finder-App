@@ -50,7 +50,6 @@ require 'html_to_plain_text'
   
   
 
-###In the terminal  
 * Open up directory that the files are downloaded to and run:
 
 `   $ruby recipe_finder_app.rb  `
