@@ -56,7 +56,7 @@ require 'html_to_plain_text'
 `   $ruby recipe_finder_app.rb  `
 
   
- * Example of class use  
+ * For example :  
  
    `$ruby projects.rb`
 ```
@@ -82,8 +82,7 @@ questions_new = {
   :answers_1 => "",  
   :answers_2 => "",  
   :answers_3 => "",  
-  :answers_4 => "",  
-    
+  :answers_4 => "",      
 ```
 
 
