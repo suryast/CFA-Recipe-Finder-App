@@ -56,6 +56,20 @@ require 'html_to_plain_text'
 
   
  * For example :  
+ *Step 1
+  create users questioner
+  call method to start questions
+
+ *Step 2
+  create cook based on users answers
+
+ *Step 3
+  create new Google Places client
+  create places search based on user input
+  pull user coordinates based on postcode
+  return recipe based on users ingredients
+  gets and returns list of restaurants in the area
+  gets and returns one random restaurant near the user
  
    `$ruby projects.rb`
 ```
@@ -84,6 +98,31 @@ questions_new = {
   :answers_4 => "",      
 ```
 
+```
+ser_1 = Questioner.new(questions_new, answers_new)  
+cook_1 = Cook.new(user_1.answers[:answers_1], user_1.answers[:answers_5])  
+  
+  
+client = GooglePlaces::Client.new(get_google_credentials)  
+  
+  
+client = GooglePlaces::Client.new(get_google_credentials)  
+  
+  
+cook_1_search = PlacesSearch.new(client, cook_1.postcode, cook_1.taste_preference)  
+  
+client_coordinates = cook_1_search.get_client_coordinates(cook_1.postcode)  
+  
+  
+puts recipe_1 = get_recipe(user_1.ingredients)  
+  
+  
+new_results = cook_1_search.get_spots(client, client_coordinates)  
+cook_1_search.place_search_details(new_results)  
+  
+  
+new_single_place = cook_1_search.single_place_search_details(new_results)  
+```  
 
 ## Design Journey/Process  
   Please refer to the following web site.  
