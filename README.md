@@ -56,20 +56,20 @@ require 'html_to_plain_text'
 
   
  * For example :  
- *Step 1
-  create users questioner
-  call method to start questions
+  Step 1
+  *create users questioner
+  *call method to start questions
 
- *Step 2
-  create cook based on users answers
+  Step 2
+  *create cook based on users answers
 
- *Step 3
-  create new Google Places client
-  create places search based on user input
-  pull user coordinates based on postcode
-  return recipe based on users ingredients
-  gets and returns list of restaurants in the area
-  gets and returns one random restaurant near the user
+  Step 3
+  *create new Google Places client  
+  *create places search based on user input  
+  *pull user coordinates based on postcode  
+  *return recipe based on users ingredients  
+  *gets and returns list of restaurants in the area  
+  *gets and returns one random restaurant near the user  
  
    `$ruby projects.rb`
 ```
