@@ -1,27 +1,28 @@
 require 'test/unit'
 require_relative 'takeaway_class'
+require_relative 'cook_class'
 
 
-class TakeAwayTest < Test::Unit::TestCase
+class PlacesSearchTest < Test::Unit::TestCase
 
-  def test_location
+  def test_get_client_coordinates
   #test case
   customer = PlacesSearch.new("client", "2010", "Italian")
   #assertion
   expected = "2010"
-  actual = customer.location
-  msg = "#{customer.location}, #{customer.allergen}, #{customer.cuisine}, #{customer.suitable_age_group}"
+  actual = customer.postcode
+  msg = "Looking for customer postcode 2010"
   #expected
   assert_equal(expected, actual, msg)
   end
 
   def test_location_non_postcode
   #test case
-  customer = PlacesSearch.new("client","earth", "Italian")
+  customer = PlacesSearch.new("client", "2010", "Italian")
   #assertion
-  expected = "nope"
-  actual = customer.location
-  msg = "#{customer.location}, #{customer.allergen}, #{customer.cuisine}, #{customer.suitable_age_group}"
+  expected = "2010"
+  actual = customer.postcode
+  msg = "Looking for error message"
   #expected
   assert_equal(expected, actual, msg)
   end
@@ -32,7 +33,7 @@ class TakeAwayTest < Test::Unit::TestCase
   #assertion
   expected = "Italian"
   actual = customer.cuisine
-  msg = "#{customer.location}, #{customer.allergen}, #{customer.cuisine}, #{customer.suitable_age_group}"
+  msg = "Looking for cusine type"
   #expected
   assert_equal(expected, actual, msg)
   end
