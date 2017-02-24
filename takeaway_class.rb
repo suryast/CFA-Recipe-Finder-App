@@ -16,7 +16,7 @@ class Client
   end
 
   attr_accessor :api, :spot
-  
+
 end
 
 class PlacesSearch
@@ -49,7 +49,7 @@ class PlacesSearch
 
     # pull place_id from random
     spot = client.spot("#{random_place_id}")
-    reviews = spot.reviews[0]
+    reviews = spot.reviews.sample #[0]
 
     # pull place details with random_place_id
     place_name = spot.name
@@ -79,9 +79,11 @@ class PlacesSearch
     place_name = results.map { |place| place.name}
     place_address = results.map { |place| place.vicinity}
     place_rating = results.map { |place| place.rating}
+    place_city = results.map { |place| place.city}
+
 
     rows = [place_name, place_address, place_rating].transpose
-    table = Terminal::Table.new :title => Paint["Restaurants Nearby in ", :yellow] , :headings => ['Name', 'Address', 'Rating'], :rows => rows, :style => {:border_i => "x"}
+    table = Terminal::Table.new :title => Paint["Restaurants Nearby", :yellow] , :headings => ['Name', 'Address', 'Rating'], :rows => rows, :style => {:border_i => "x"}
       #:width => 80,  -> width stopped working
 
     puts table
