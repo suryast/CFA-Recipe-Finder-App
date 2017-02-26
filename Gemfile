@@ -1,0 +1,15 @@
+source "http://rubygems.org"
+
+require 'nokogiri'
+require 'open-uri'
+require 'open_uri_redirections'
+require 'rest-client'
+require 'food2fork'
+require 'html_to_plain_text'
+require 'Pry'
+require 'HTTParty'
+require 'JSON'
+require 'csv'
+require 'rubygems'
+require 'terminal-table/import'
+require 'paint'
